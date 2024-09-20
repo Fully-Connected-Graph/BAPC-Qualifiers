@@ -1,0 +1,22 @@
+[
+    {
+        "name": "StudyLandscape",
+        "url": "/sl-map"
+    },
+    {
+        "name": "Rules",
+        "url": "/rules"
+    },
+    {
+        "name": "Location",
+        "url": "/location"
+    },
+    {
+        "name": "Sponsors",
+        "url": "/sponsors"
+    },
+    {
+        "name": "Schedule",
+        "url": "/schedule"
+    }
+]
