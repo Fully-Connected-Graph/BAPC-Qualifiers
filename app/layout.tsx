@@ -9,17 +9,15 @@ import { NavBar } from "@/components/molecules/nav-bar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GAPC 2024",
-  description:
-    "The 2024 edition of the Groningen Algorithmic Programming Competition",
+  title: "BAPC",
+  description: "RuG qualifiers for BAPC 2024",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://gapc.svcover.nl/",
-    title: "Groningen Algorithmic Programming Competition 2024",
-    description:
-      "The 2024 edition of the Groningen Algorithmic Programming Competition",
-    images: ["https://gapc.svcover.nl/assets/thumbnails/banner.png"],
+    title: "RuG 2024 qualifiers for BAPC",
+    description: "RuG qualifier for BAPC 2024 qualifiers for BAPC",
+    images: [],
   },
 };
 

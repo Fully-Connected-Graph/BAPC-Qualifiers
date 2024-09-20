@@ -11,21 +11,11 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
 
   return (
     <>
-      {!params.slug && (
-        <div className="mb-8">
-          <AboutUs />
-        </div>
-      )}
       {(data.thumbnail || data.title) && (
         <div className="relative mb-8 h-80 bg-swirl w-screen -translate-x-[calc(50vw-28rem)] max-lg:-translate-x-4 bg-black flex flex-col gap-6 justify-center overflow-hidden">
           <h1 className="text-5xl text-white text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 drop-shadow-md">
             {data.title}
           </h1>
-          <img
-            src={data.thumbnail}
-            alt={data.title}
-            className="object-cover w-full h-full blur-sm"
-          />
         </div>
       )}
       <div>

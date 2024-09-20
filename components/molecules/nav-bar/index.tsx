@@ -20,7 +20,6 @@ export const NavBar: FC = async () => {
         <Link className="flex-1" href="/">
           <div className="flex flex-col items-start gap-1">
             <img src="/assets/logo.png" alt="logo" className="h-10" />
-            <span className="text-sm font-jbMono">GAPC 2024</span>
           </div>
         </Link>
         {links.map((link, index) => (
@@ -33,7 +32,6 @@ export const NavBar: FC = async () => {
             <span className="block mt-1 max-w-0 group-hover:max-w-full duration-200 h-0.5 bg-gradient-to-r from-purple-300 to-blue-300"></span>
           </Link>
         ))}
-        <MobileMenu links={links} />
       </div>
     </nav>
   );
